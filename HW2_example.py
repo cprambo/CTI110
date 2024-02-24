@@ -18,3 +18,13 @@ print('This program calculates and displays travel expenses')
 budget = int(input('Enter budget: '))
 dest = input('Enter your destination')
 gas = int(input('Enter gas: '))
+
+#Calculate user input
+
+expenses = gas + hotel + food
+
+result = budget - expenses
+
+#Show result
+
+print('\nRemaining balance: ' + str(result)) 
